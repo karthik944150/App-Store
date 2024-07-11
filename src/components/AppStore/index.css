@@ -1,0 +1,86 @@
+/* Write your CSS here */
+
+/* Write your CSS here */
+
+.app-conainer {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #fff1eb, #ace0f9);
+  min-height: 100vh;
+}
+.app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  max-width: 1110px;
+}
+.title {
+  font-family: 'Bree Serif';
+
+  font-size: 24px;
+  color: #3e4c59;
+  margin-top: 12px;
+  margin-bottom: 48px;
+}
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+    margin-top: 96px;
+  }
+}
+.searchbox-conainer {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  background-color: transparent;
+  border: solid 1px #7b8794;
+  border-radius: 5px;
+  max-width: 250px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .searchbox-conainer {
+    max-width: 480px;
+  }
+}
+.input-element {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+}
+
+.search-icon {
+  height: 24px;
+  width: 24px;
+}
+
+.tabs-container {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .tabs-container {
+    margin-top: 48px;
+  }
+}
+
+.app-list-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  width: 100%;
+}
